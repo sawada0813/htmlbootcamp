@@ -2,3 +2,17 @@ p {
     color:blue;
     font-weight: bold;
 }
+
+table {
+    border-collapse:    collapse;
+}
+
+th {
+    background-color:   #ECEEEF;
+    border: solid 1px #ECEEEF;
+    text-align: left;
+}
+
+td {
+    border: solid 1px #ECEEEF;
+}
