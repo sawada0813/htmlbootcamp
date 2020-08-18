@@ -25,3 +25,21 @@ li:first-child {
 li:last-child {
     padding-bottom:0;
 }
+
+label {
+    display:block;
+}
+
+.btn {
+    background-color:#007BFF;
+    border:none;
+    color:#FFFFFF;
+}
+
+.form-control {
+    top: 195px;
+    left: 392px;
+    width: 350px;
+    height: 38px;
+    border: 1px solid #DEE2E6;
+}
