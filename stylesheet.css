@@ -1,18 +1,31 @@
 p {
     color:blue;
-    font-weight: bold;
+    font-weight:bold;
 }
 
 table {
-    border-collapse:    collapse;
+    border-collapse:collapse;
 }
 
 th {
-    background-color:   #ECEEEF;
-    border: solid 1px #ECEEEF;
-    text-align: left;
+    background-color:#ECEEEF;
+    border:solid 1px #ECEEEF;
+    text-align:left;
+    padding:16px 10px;
 }
 
 td {
-    border: solid 1px #ECEEEF;
+    border:solid 1px #ECEEEF;
+    padding:16px 10px;
+}
+
+ul {
+    margin:30px 0;;
+}
+
+li:first-child {
+    padding-bottom:5px;
+}
+li:last-child {
+    padding-bottom:0;
 }
