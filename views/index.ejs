@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>新人自己紹介掲示板</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+    </head>
+
+    <body>
+        <h1>新人自己紹介掲示板</h1>
+        <ul>
+            <li>新人の自己紹介が書き込まれるよ</li>
+            <li>html/css bootcampお題だよ</li>
+        </ul>
+
+        <form>
+            <div class="register-form">
+                <div>
+                    <label for="name">名前</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="性名"
+                        class="form-control"
+                    />
+                </div>
+
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="sample@sample.com"
+                        class="form-control"
+                    />
+                </div>
+
+                <div>
+                    <label for="introduction">自己紹介</label>
+                    <input
+                        type="text"
+                        id="introduction"
+                        placeholder="255文字以内に記入してください"
+                        class="form-control"
+                    />
+                </div>
+
+                <input type="submit" value="送信" class="btn">
+            </div>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名前</th>
+                    <th>メールアドレス</th>
+                    <th>自己紹介</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>magazine yomiko</td>
+                    <td>yomiko@hoge.com</td>
+                    <td>漫研いました。よろしくお願いします。</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>bass hikio</td>
+                    <td>hikio@hoge.com</td>
+                    <td>ベース弾いてました。よろしくお願いします。</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>who</td>
+                    <td>who@hoge.com</td>
+                    <td>僕は誰ですか？</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><b>Qiita</b>は<a href="https://qiita.com/">こちら</a></p>
+    </body>
+</html>
