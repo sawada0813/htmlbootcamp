@@ -1,51 +1,44 @@
 * {
     margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 280px 1fr 280px;
+    grid-template-rows: 64px 1fr 64px;
+    grid-template-areas: 
+    "header header  header"
+    "nav    main    aside"
+    "footer footer  footer"
+    ;
+    height: 100vh;
 }
 
 header {
     background-color: red;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 10;
+    position:   fixed;
+    grid-area: header;
+    height: 64px;
+    width:  100%;
 }
-
-.container {
-    background-color: gray;
-    display: flex;
-    padding-top: 24px;
-}
-
 
 nav {
     background-color: green;
-    width: 280px;
-}
-
-.img_area {
-    position: relative;
-}
-
-.img_area p {
-    position: absolute;
-    top: 0;
-    background-color: blue;
-    color: white;
-
-    top: 70px;
-    left: 260px;
+    grid-area: nav;
 }
 
 main {
     background-color: blue;
-    width: 100%;
+    grid-area: main;
 }
 
 aside {
     background-color: yellow;
-    width: 280px;
+    grid-area: aside;
 }
 
 footer {
     background-color:  purple;
+    grid-area: footer;
 }
