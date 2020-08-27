@@ -38,6 +38,10 @@ aside {
     grid-area: aside;
 }
 
+.link:hover {
+    color: red;
+}
+
 footer {
     background-color:  purple;
     grid-area: footer;
